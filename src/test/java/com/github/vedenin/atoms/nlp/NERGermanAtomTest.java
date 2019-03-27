@@ -12,7 +12,7 @@ import static org.testng.AssertJUnit.assertEquals;
 @Atom(StanfordCoreNLP.class)
 public class NERGermanAtomTest
 {
-    private final NERGermanAtom atom = NERGermanAtom.create();
+    private final NERAtomInterface atom = NERGermanAtom.create();
 
     @Test
     public void test()
